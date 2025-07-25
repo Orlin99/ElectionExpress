@@ -4,7 +4,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/election_express_database
     username: postgres
-    password: 55412678910
+    password: ***************
   jpa:
     hibernate:
       ddl-auto: create-drop
@@ -17,7 +17,7 @@ spring:
       host: smtp.gmail.com
       port: 587
       username: orlinivanov69@gmail.com
-      password: otda vttq okbw ycvu
+      password: **** **** **** ****
       properties:
         mail.smtp.auth: true
         mail.smtp.starttls.enable: true
@@ -28,7 +28,7 @@ spring:
       host: smtp.abv.bg
       port: 465
       username: orlin11111@abv.bg
-      password: Por55412678910
+      password: ***************
       properties:
         mail.smtp.auth: true
         mail.smtp.ssl.enable: true
