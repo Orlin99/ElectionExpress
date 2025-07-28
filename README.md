@@ -38,20 +38,20 @@ This is a Java-based RESTful API project for managing an **Online Voting System*
 │       │   └── 📁 com/core/electionsystem/<br>
 │       │       ├── 📄 ElectionSystemMain.java/<br>
 │       │       ├── 📁 configuration/<br>
-|       │       │   ├── 📄 ApplicationConfiguration.java/<br>
-|       │       │   ├── 📄 CrossOriginResourceSharingConfiguration.java/<br>
-|       │       │   ├── 📄 EmailConfiguration/<br>
-|       │       │   └── 📁 security/<br>
-|       │       │       ├── 📄 SecuredAccessDeniedHandler.java/<br>
-|       │       │       ├── 📄 SecuredAuthenticationEntryPoint.java/<br>
-|       │       │       ├── 📄 SecuredLogoutHandler.java/<br>
-|       │       │       ├── 📄 SecurityConfiguration.java/<br>
-|       │       │       ├── 📁 filter/<br>
-|       │       │       |   ├── 📄 JwtFilter.java/<br>
-|       │       │       |   └── 📄 SecondAuthenticationFilter.java/<br>
-|       │       │       └── 📁 utility/<br>
-|       │       │           ├── 📄 BufferedResponseWrapper.java/<br>
-|       │       │           └── 📄 SecurityUtility.java/<br>
+|       │       │    ├── 📄 ApplicationConfiguration.java/<br>
+|       │       │    ├── 📄 CrossOriginResourceSharingConfiguration.java/<br>
+|       │       │    ├── 📄 EmailConfiguration/<br>
+|       │       │    └── 📁 security/<br>
+|       │       │        ├── 📄 SecuredAccessDeniedHandler.java/<br>
+|       │       │        ├── 📄 SecuredAuthenticationEntryPoint.java/<br>
+|       │       │        ├── 📄 SecuredLogoutHandler.java/<br>
+|       │       │        ├── 📄 SecurityConfiguration.java/<br>
+|       │       │        ├── 📁 filter/<br>
+|       │       │        |    ├── 📄 JwtFilter.java/<br>
+|       │       │        |    └── 📄 SecondAuthenticationFilter.java/<br>
+|       │       │        └── 📁 utility/<br>
+|       │       │            ├── 📄 BufferedResponseWrapper.java/<br>
+|       │       │            └── 📄 SecurityUtility.java/<br>
 │       │       ├── 📁 controller/<br>
 |       │       |   ├── 📄 ControllerAdvisor.java/<br>
 |       │       |   ├── 📄 ForgottenPropertiesController.java/<br>
@@ -231,8 +231,8 @@ This is a Java-based RESTful API project for managing an **Online Voting System*
 
 - JWT-Based Secure authentication and authorization
 - Role-Based Access Control (Elector And Supervisor)
-- Optional 2FA - Using a smartphone authenticator
-- Password Recovery via email (SMTP support for Gmail.com and ABV.bg)
+- Optional 2FA - Using a Smartphone Authenticator App
+- Password Recovery via Email (SMTP support for `Gmail.com` and `ABV.bg`)
 
 ---
 
