@@ -22,13 +22,13 @@
 
 - **Language:** Java SE-17
 - **Framework:** Spring Boot
-- **Security:** Spring Security, JWT, 2FA (TOTP)
+- **Security:** Spring Security, JSON Web Tokens, 2-Factor Authentication (TOTP)
 - **Database:** PostgreSQL
 - **Build Tool:** Maven
-- **Frontend:** React.js (separate repo)
+- **Frontend:** React.js (Separate GitHub Repo)
 - **API Style:** REST
-- **Mail Support:** Gmail & abv.bg
-- **Auth:** JWT, 2FA, Email Recovery
+- **Mail Support:** Gmail & ABV.bg
+- **Authentication:** JSON Web Tokens, 2-Factor Authentication (Optional), Email Recovery for lost Credentials
 
 ---
 
@@ -70,22 +70,22 @@
 ├── 📄 `pom.xml`  
 └── 📄 `README.md`  
 
-> 🔎 **Note:** Full class breakdown is visible in the repository tree. It includes DTOs, domain models, services, custom exceptions, schedulers, and security logic.
+> 🔎 **Note:** Full class breakdown is visible in the Repository tree. It includes DTOs, domain Models, Services, Customized Exceptions, Scheduler methods, and Security logic.
 
 ---
 
 ## 🔒 Authentication Overview
 
-- **JWT Tokens:** Stateless session for Elector/Supervisor
-- **2FA:** Optional onboarding via TOTP (QR Code for smartphone)
+- **JWT Tokens:** Stateless session for both Roles - Elector/Supervisor
+- **2FA:** Optional Onboarding via TOTP (QR-Code for Smartphone)
 - **Email Recovery:** Built-in support for `abv.bg` and `gmail` SMTP
-- **Custom Filters:** JWT + 2FA filters in Spring Security chain
+- **Custom Filters:** JWT Filter + 2FA Filter in Spring Security chain
 
 ---
 
 ## 🧪 API Overview
 
-A total of **59 REST endpoints** grouped into:
+A total of **59 REST Endpoints** grouped into:
 
 - `/elector`: Voting operations
 - `/supervisor`: Election management
