@@ -238,5 +238,5 @@ This is a Java-based RESTful API project for managing an **Online Voting System*
 
 ## 🔗 Frontend
 
-The frontend for this project is built with **React.js** and is available here:  
+The Frontend for this Project is built with `React.js` and is available here:  
 👉 [Online Voting System Frontend (React.js)](https://github.com/Orlin99/ElectionExpressUI)
