@@ -29,6 +29,19 @@ This is a Java-based RESTful API project for managing an **Online Voting System*
 
 ---
 
+## 🧪 API Overview
+
+A total of **59 REST endpoints** grouped into:
+
+- `/auth`: Login, Logout, 2FA onboarding
+- `/elector`: Voting operations
+- `/supervisor`: Election management
+- `/recovery`: Password and secret answer recovery
+- `/election`: Create/manage election events, candidates, preferences
+- `/status`: Scheduled status changes for elections
+
+---
+
 ## 📦 Project Structure
 
 📦 election-express  
