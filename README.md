@@ -9,7 +9,7 @@
 - [x] Role-Based Access: Elector & Supervisor
 - [x] Secure Login/Logout with JWT
 - [x] Optional 2FA using smartphone-based OTP
-- [x] Email recovery support (`abv.bg`, `gmail`)
+- [x] Email recovery support (`abv.bg` and `gmail`)
 - [x] Voting and Election Management
 - [x] 59+ REST APIs
 - [x] Spring Security + Custom Filters
