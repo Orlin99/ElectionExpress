@@ -11,8 +11,8 @@
 - [x] Optional 2FA using smartphone-based OTP
 - [x] Email recovery support (`abv.bg` and `gmail`)
 - [x] Voting and Election Management
-- [x] 59+ REST APIs
-- [x] Spring Security + Custom Filters
+- [x] 59 REST APIs
+- [x] Spring Security + Customized Filters
 - [x] React.js Frontend ([View Here](https://github.com/Orlin99/ElectionExpressUI))
 - [x] Scheduler to auto-update election statuses
 
