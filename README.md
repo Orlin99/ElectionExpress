@@ -89,8 +89,8 @@ A total of **59 REST Endpoints** grouped into:
 
 - `/elector`: Voting operations
 - `/supervisor`: Election management
-- `/recovery`: Password and secret answer recovery
-- `/election`: Create/manage election events, candidates, preferences
+- `/recovery`: Password and Secret Answer recovery
+- `/election`: Create/Manage Election events, Candidates, Preferences
 
 ---
 
