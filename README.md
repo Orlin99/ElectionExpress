@@ -20,7 +20,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Language:** Java
+- **Language:** Java SE-17
 - **Framework:** Spring Boot
 - **Security:** Spring Security, JWT, 2FA (TOTP)
 - **Database:** PostgreSQL
