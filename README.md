@@ -96,5 +96,5 @@ A total of **59 REST Endpoints** grouped into:
 
 ## 📎 Frontend Project
 
-The React.js frontend for this system is hosted separately.  
+The `React.js` Frontend for this System is Hosted Separately.  
 👉 [Election Express Frontend (React)](https://github.com/Orlin99/ElectionExpressUI)
