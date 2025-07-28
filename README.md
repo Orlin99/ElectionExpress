@@ -32,9 +32,9 @@ This is a Java-based RESTful API project for managing an **Online Voting System*
 ## 📦 Project Structure
 
 📦 election-express/<br>
- ├── 📁 src/<br>
- │    └── 📁 main/<br>
- │       ├── 📁 java/<br>
+  ├── 📁 src/<br>
+  │    └── 📁 main/<br>
+  │       ├── 📁 java/<br>
  │       │   └── 📁 com/core/electionsystem/<br>
  │       │       ├── 📄 ElectionSystemMain.java/<br>
  │       │       ├── 📁 configuration/<br>
